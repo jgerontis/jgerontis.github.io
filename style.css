@@ -41,7 +41,7 @@
 
 /* ============= FONT STUFF ENDS ================= */
 
-html {
+* {
 	scroll-behavior: smooth;
 }
 
@@ -50,17 +50,12 @@ body {
     color: #dff8eb;
     font-family: mononoki, sans-serif;
     font-size: 18px;
-    margin: 0px;
+    margin: 0px auto;
 }
 
 a {
     text-decoration: none;
-    color:gainsboro;
-}
-
-code {
-    font-family: mononoki, sans-serif;
-    font-size: 18px;
+    color: #214e34;
 }
 
 a:active {
@@ -68,7 +63,16 @@ a:active {
 }
 
 a:hover {
+    color: #DFF8EB;
+}
+
+a:visited {
     color: #214e34;
+}
+
+code {
+    font-family: mononoki, sans-serif;
+    font-size: 18px;
 }
 
 #page-grid {
@@ -78,8 +82,8 @@ a:hover {
     grid-column: 1/-1;
 }
 
-#place-holder {
-    background-color: dimgray;
+#nav-place-holder {
+    background-color: #011638;
     grid-column: 2/3;
     grid-row: 1/2;
     height: 40px;
@@ -97,7 +101,7 @@ a:hover {
 }
 
 #nav-links {
-    background-color: dimgray;
+    background-color: #011638;
     display: flex;
     height: 40px;
     width: 75%;
@@ -109,12 +113,94 @@ a:hover {
     right: 0;
 }
 
+.nav-link {
+    border:rgb(37, 37, 37) solid 0px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #364156;
+}
+
+#code-place-holder {
+    background-color: rgb(37, 37, 37);
+    width: 25%;
+    grid-column: 1/2;
+    grid-row: 1/-1;
+}
+
+#code {
+    background-color: rgb(37, 37, 37);
+    width: 25%;
+    position: fixed;
+    top: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    justify-items: center;
+}
+
+.code-link {
+    color: #DFF8EB;
+    margin: 10px 0px;
+}
+
+.code-link:hover{
+    color: #214e34;
+    background-color: #fff;
+}
+
+section {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+    background-color: #364156;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imagesContainer {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+img {
+    width: 200px;
+}
+
+
+#portfolio {
+    align-items: center;
+    background-color: steelblue;
+    height: 500px;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+#contact {
+    color: rgb(37, 37, 37);
+    background-image: url("https://picsum.photos/id/1025/500/400");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    height: 500px;
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+#about {
+    background-color: steelblue;
+    height: 500px;
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+
 @media screen and (max-width: 2160px) {
     #nav-links {
         display: none;
     }
 
-    #place-holder {
+    #nav-place-holder {
         background-color: #011638;
     }
 
@@ -128,57 +214,6 @@ a:hover {
 }
 
 
-#code {
-    display: flex;
-    height: 100%;
-    background-color: rgb(37, 37, 37);
-    grid-column: 1/2;
-    grid-row: 2/6;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    padding: 10px;
-}
-
-.code-link {
-    margin: 10px 0px;
-}
-
-section {
-    padding: 20px;
-}
-
-#projects {
-    height: 500px;
-    background-color: lightskyblue;
-    grid-column: 2/3;
-    grid-row: 2/3;
-}
-
-.mySlides {display:none;}
-
-#skills {
-    height: 500px;
-    background-color: skyblue;
-    grid-column: 2/3;
-    grid-row: 3/4;
-}
-
-#contact {
-    height: 500px;
-    background-color: deepskyblue;
-    grid-column: 2/3;
-    grid-row: 4/5;
-}
-
-#about {
-    height: 500px;
-    background-color: dodgerblue;
-    grid-column: 2/3;
-    grid-row: 5/6;
-}
-
-
 @media screen and (max-width: 900px){
 
     #page-grid {
@@ -186,6 +221,7 @@ section {
     }
     
     #nav-links {
+        display: flex;
         width: 100%;
     }
 

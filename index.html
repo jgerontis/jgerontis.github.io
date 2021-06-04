@@ -4,66 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
+
+
+<!-- ICONS FOR THE STUFF YOU KNOW -->
+
 <body>
     <div id="page-grid">
 
-        <div id="place-holder"></div>
+        <div id="nav-place-holder"></div>
+        <div id="code-place-holder"></div>
 
         <div id="nav-name">Josh Gerontis</div>
         <nav id="nav-links">
-            <a href="#projects" class="nav-link">Projects</a>
-            <a href="#skills" class="nav-link">Skills</a>
-            <a href="#contact" class="nav-link">Contact</a>
-            <a href="#about" class="nav-link">About</a>
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+            <a class="nav-link" href="#contact">Contact</a>
+            <a class="nav-link" href="#about">About</a>
         </nav>
 
         <code id="code">
-            <a class="code-link">&lt;section id="projects"&gt;</a>
-            <a class="code-link">&lt;section id="skills"&gt;</a>
-            <a class="code-link">&lt;section id="contact"&gt;</a>
-            <a class="code-link">&lt;section id="about"&gt;</a>
+            <a class="code-link" href="#portfolio">&lt;section id="portfolio"&gt;</a>
+                <span>&lt;h2&gt;&lt;/h2&gt;</span>
+                <span>&lt;p&gt;&lt;/p&gt;</span>
+                <span>&lt;img&gt;&lt;img&gt;&lt;img&gt;</span>
+            <a class="code-link" href="#contact">&lt;section id="contact"&gt;</a>
+                <span>&lt;h2&gt;&lt;/h2&gt;</span>
+                <span>&lt;ul&gt;&lt;/ul&gt;</span>
+            <a class="code-link" href="#about">&lt;section id="about"&gt;</a>
+            <span>&lt;h2&gt;&lt;/h2&gt;</span>
+            <span>&lt;h3&gt;&lt;/h3&gt;</span>
+            <span>&lt;ul&gt;&lt;/ul&gt;</span>
+            <span>&lt;p&gt;&lt;/p&gt;</span>
         </code>
 
     
-        <section id="projects">
+        <section id="portfolio">
 
-            <h2>Projects</h2>
+            <h2>Application Developer</h2>
 
             <p>
-                Projects can be found on <a href= "https://www.github.com/jgerontis">my Github page</a>.
-                
+                I specialize in the creation of desktop, mobile, and web applications.
+                My expertise is in C++, C#, Go, and Python3. Additionally, I'm familiar with JavaScript, Kotlin, and Swift/SwiftUI.
+                A full list of completed and in-progress projects can be found on <a href= "https://www.github.com/jgerontis">my Github page</a>.
             </p>
+
+            <div class="imagesContainer">
+                <img src="images/code-photo-1.jpeg" alt="example image">
+                <img src="images/code-photo-1.jpeg" alt="example image">
+                <img src="images/code-photo-1.jpeg" alt="example image">
+            </div>
+            
+            
               
         </section>
 
-        <section id="skills">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo mauris. Sed eu euismod nisi, eu hendrerit nisi. Ut sapien massa, posuere eget tellus et, volutpat rutrum metus. Vivamus nec dapibus felis, commodo euismod ante. Cras vulputate sem quis sapien placerat dapibus nec at elit. Mauris at condimentum lacus. Integer quis mi egestas, hendrerit massa ac, sodales massa. Cras tincidunt sollicitudin nibh ac placerat. Integer et auctor lectus.
-            </p>
-            <ul>
-
-            </ul>
-        </section>
-
         <section id="contact">
+            <h2>Let's get in touch!</h2>
             <ul>
-
+                <li>Email: joshgerontis@gmail.com</li>
+                <li>Phone: (123)456-7890</li>
             </ul>
         </section>
 
         <section id="about">
+            <h2>
+                About Me     
+            </h2>
+            <h3>
+                Experience and Education:
+            </h3>
+            <ul>
+                <li>BS Computer Science from Dixie State University class of 2021</li>
+                <li>STEM Outreach Coordinator Intern at DSU Jan 2020 - Dec 2020</li>
+                <li>Dixie High School Valedictorian class of 2017</li>
+            </ul>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo mauris. Sed eu euismod nisi, eu hendrerit nisi. Ut sapien massa, posuere eget tellus et, volutpat rutrum metus. Vivamus nec dapibus felis, commodo euismod ante. Cras vulputate sem quis sapien placerat dapibus nec at elit. Mauris at condimentum lacus. Integer quis mi egestas, hendrerit massa ac, sodales massa. Cras tincidunt sollicitudin nibh ac placerat. Integer et auctor lectus.        
-            </p>
-            <p>
-                Fusce tempus leo vitae purus cursus, posuere vestibulum orci mattis. Sed in diam in dolor fringilla malesuada. Proin eu placerat leo, non semper elit. Vivamus feugiat eros imperdiet efficitur finibus. Proin sagittis posuere est, et eleifend lorem faucibus eu. Duis est elit, fermentum quis urna sit amet, sollicitudin tempus arcu. Nunc egestas, velit in feugiat vehicula, augue elit semper nisl, ac blandit ex ipsum id dolor. Donec in rutrum nunc, quis pharetra orci.
+                 I was born in Salt Lake City but moved to St. George at the ripe old age of four.
+                 My interests mainly consist of computers, music, and martial arts. I've been programming
+                 for about six years. I've been playing the saxophone for nine years and occasionally gig around town.
+                 I'm a part-time Class Instructor at Red Rock Martial Arts, I teach all ages but mostly enjoy
+                 teaching adults.
             </p>
         </section>
 
