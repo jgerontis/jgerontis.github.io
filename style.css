@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'mononoki';
+    src: url('fonts/mononoki-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/mononoki-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/mononoki-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+         url('fonts/mononoki-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mononoki';
+    src: url('fonts/mononoki-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/mononoki-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/mononoki-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+         url('fonts/mononoki-Bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mononoki';
+    src: url('fonts/mononoki-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/mononoki-Italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/mononoki-Italic.woff') format('woff'), /* Pretty Modern Browsers */
+         url('fonts/mononoki-Italic.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'mononoki';
+    src: url('fonts/mononoki-BoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/mononoki-BoldItalic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/mononoki-BoldItalic.woff') format('woff'), /* Pretty Modern Browsers */
+         url('fonts/mononoki-BoldItalic.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* ============= FONT STUFF ENDS ================= */
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+    background-color: #011638;
+    color: #dff8eb;
+    font-family: mononoki, sans-serif;
+    font-size: 18px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color:gainsboro;
+}
+
+code {
+    font-family: mononoki, sans-serif;
+    font-size: 18px;
+}
+
+a:active {
+    color: #214e34;
+}
+
+a:hover {
+    color: #214e34;
+}
+
+#page-grid {
+    display: grid;
+    grid-template-columns: minmax(0px,1fr) 3fr;
+    grid-auto-rows: minmax(0px,auto);
+    grid-column: 1/-1;
+}
+
+#place-holder {
+    background-color: dimgray;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    height: 40px;
+    width: 100%
+}
+
+#nav-name {
+    background-color: #011638;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#nav-links {
+    background-color: dimgray;
+    display: flex;
+    height: 40px;
+    width: 75%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+@media screen and (max-width: 2160px) {
+    #nav-links {
+        display: none;
+    }
+
+    #place-holder {
+        background-color: #011638;
+    }
+
+    #nav-name {
+        width: 25%;
+        position: fixed;
+        top: 0;
+        z-index: 99;
+    }
+
+}
+
+
+#code {
+    display: flex;
+    height: 100%;
+    background-color: rgb(37, 37, 37);
+    grid-column: 1/2;
+    grid-row: 2/6;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.code-link {
+    margin: 10px 0px;
+}
+
+section {
+    padding: 20px;
+}
+
+#projects {
+    height: 500px;
+    background-color: lightskyblue;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.mySlides {display:none;}
+
+#skills {
+    height: 500px;
+    background-color: skyblue;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+#contact {
+    height: 500px;
+    background-color: deepskyblue;
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+#about {
+    height: 500px;
+    background-color: dodgerblue;
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+
+
+@media screen and (max-width: 900px){
+
+    #page-grid {
+        grid-template-columns: 0px 100%;
+    }
+    
+    #nav-links {
+        width: 100%;
+    }
+
+    #code {
+        display: none;
+    }
+
+    #nav-name {
+        display: none;
+    }
+}
