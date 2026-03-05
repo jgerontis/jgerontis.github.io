@@ -3,7 +3,7 @@ layout: page
 title: Sessions
 ---
 
-{% raw %}{% assign sorted_sessions = site.sessions | sort: "session_number" %}
+{% assign sorted_sessions = site.sessions | sort: "session_number" %}
 
 {% for session in sorted_sessions %}
 
@@ -11,4 +11,4 @@ title: Sessions
 
 *{{ session.date | date: "%B %d, %Y" }}*
 
-{% endfor %}{% endraw %}
+{% endfor %}

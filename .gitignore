@@ -11,5 +11,13 @@ Thumbs.db
 .vscode/
 .idea/
 
+# Jekyll build output
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Gemfile build output
+Gemfile.lock
+
 # Node / build tools if used
 node_modules/

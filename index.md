@@ -1,11 +1,12 @@
 ---
-layout: home
+layout: page
 title: Home
 ---
 
-Welcome to my site.
+Welcome to my corner of the internet, hope you enjoy your stay!
 
-## Sections
+## Blog
 
-- [Blog](/blog/)
-- [D&D Campaign](/dnd/)
+{% for post in site.posts %}
+- [{{ post.title }}]({{ post.url }})
+{% endfor %}

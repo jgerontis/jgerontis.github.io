@@ -1,8 +1,9 @@
-title: Josh's Notes
-description: Blog and D&D campaign notes
-theme: minima
-markdown: kramdown
+title: Josh's Github IO
+description: My online thoughts and projects
 permalink: pretty
+markdown: kramdown
+kramdown:
+  input: GFM
 
 collections:
   people:
