@@ -1,0 +1,16 @@
+title: Josh's Notes
+description: Blog and D&D campaign notes
+theme: minima
+markdown: kramdown
+permalink: pretty
+
+collections:
+  people:
+    output: true
+    permalink: /dnd/people/:name/
+  places:
+    output: true
+    permalink: /dnd/places/:name/
+  sessions:
+    output: true
+    permalink: /dnd/sessions/:name/

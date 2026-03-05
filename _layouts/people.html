@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<div class="npc-container">
+
+<aside class="npc-infobox">
+
+<h2>{{ page.title }}</h2>
+
+<ul>
+
+{% raw %}{% if page.race %}
+<li><b>Race:</b> {{ page.race }}</li>
+{% endif %}
+
+{% if page.title_rank %}
+<li><b>Title:</b> {{ page.title_rank }}</li>
+{% endif %}
+
+{% if page.affiliation %}
+<li><b>Affiliation:</b> {{ page.affiliation }}</li>
+{% endif %}
+
+{% if page.location %}
+<li><b>Location:</b> {{ page.location }}</li>
+{% endif %}
+
+{% if page.first_session %}
+<li><b>First Seen:</b> Session {{ page.first_session }}</li>
+{% endif %}
+
+{% if page.status %}
+<li><b>Status:</b> {{ page.status }}</li>
+{% endif %}{% endraw %}
+
+</ul>
+
+</aside>
+
+<article class="npc-content">
+
+{{ content }}
+
+</article>
+
+</div>

@@ -1,0 +1,15 @@
+# Obsidian config
+.obsidian/
+
+*/private/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Node / build tools if used
+node_modules/
