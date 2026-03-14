@@ -2,7 +2,7 @@
 layout: page
 title: Character Creation
 session_number: "0"
-date: 3/14/26
+date: 2026-03-14
 summary: Players made characters
 ---
 
