@@ -4,6 +4,8 @@
 `bundle install`
 
 Then, you only need to run:
-`bundle exec jekyll serve`
+`make build`
+`make serve`
 
-and test on localhost:4000
+Alternatively:
+`make clean`

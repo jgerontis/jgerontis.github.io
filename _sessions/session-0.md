@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: session
 title: Character Creation
 session_number: "0"
 date: 2026-03-14
@@ -21,10 +21,10 @@ The Elves, who already lived on the eastern side of the Old World, were the firs
 In an attempt to not spread the warring ways of their homelands to this majestic new land, diplomats from all the lands gathered and signed the treaty of Mount Saint Van Halen's - ushering in a millennia of peace and prosperity.
 
 ## Player Characters
-[Constance (Connie)](Constance%20(Connie).md)
-[Jaog Oron](Jaog%20Oron.md)
-[Ryder Hard](Ryder%20Hard.md)
-[Zulden](Zulden.md)
+[Constance (Connie)](../_people/constance-connie.md)
+[Jaog Oron](../_people/jaog-oron.md)
+[Ryder Hard](../_people/ryder-hard.md)
+[Zulden](../_people/zulden.md)
 TBD
 TBD
 ## Locations
