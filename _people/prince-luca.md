@@ -15,8 +15,10 @@ Crown prince of the Kingdom of New Angland, son of King Willem.
 
 ## Personality
 Prince Luca is charming, charitable, and beloved by all of his subjects.
+Has a HUGE gambling problem.
 
   
 
 ## Background
-Best friends with every member of the party since youth.
+Best friends with every member of the party.
+Has received basically the best education money can buy, super renaissance man.

@@ -21,12 +21,11 @@ The Elves, who already lived on the eastern side of the Old World, were the firs
 In an attempt to not spread the warring ways of their homelands to this majestic new land, diplomats from all the lands gathered and signed the treaty of Mount Saint Van Halen's - ushering in a millennia of peace and prosperity.
 
 ## Player Characters
-[Constance (Connie)](../_people/constance-connie.md)
-[Jaog Oron](../_people/jaog-oron.md)
-[Ryder Hard](../_people/ryder-hard.md)
-[Zulden](../_people/zulden.md)
-TBD
-TBD
+[Constance (Connie)](/dnd/people/constance-connie/)
+[Jaog Oron](/dnd/people/jaog-oron/)
+[Ryder Hard](/dnd/people/ryder-hard/)
+[Zulden](/dnd/people/zulden/)
+[Balthier](/dnd/people/balthier/)
 ## Locations
 
 New Angland: The largest human kingdom.

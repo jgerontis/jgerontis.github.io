@@ -20,9 +20,6 @@ jobs:
     - name: Build site with Jekyll
       run: bundle exec jekyll build
     
-    - name: Convert relative links to absolute URLs
-      run: ruby scripts/post_build.rb
-    
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
